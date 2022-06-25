@@ -1,0 +1,65 @@
+:root {
+	--main-backgound-color:#F8F3ED;
+	--menu:#D4D3CB;
+}
+
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--main-backgound-color);
+}
+
+a {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img {
+	width: 100%;
+}
+
+header a img {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+}
+
+header {
+	padding: 50px 80px;
+}
+
+header section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	gap: 30px;
+
+	/* position: relative; */
+	text-align: center;
+
+}
+section p {
+	margin: 0;
+	font-size: 13pt;
+}
+
+h1 { 
+	font-size: 60pt;
+	margin-bottom: 0;
+}
+
