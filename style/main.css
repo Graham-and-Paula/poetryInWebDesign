@@ -34,7 +34,7 @@ img {
 }
 
 header a img {
-	position: absolute;
+	position: static;
 	width: 17px;
 	height: 17px;
 }
@@ -63,3 +63,62 @@ h1 {
 	margin-bottom: 0;
 }
 
+/* parellax */
+
+.image1 {
+	z-index: 100;
+	position: static;
+
+	margin: auto;  
+	padding: 0;
+
+	width: 700px;
+	height: 400px;
+
+	background-color: rgb(107, 43, 56);
+}
+
+.scene {
+	position: relative;
+
+	margin: 0;
+	padding: 0;
+
+	perspective: 300px;
+
+	width: 100vw;
+	height: 100vh;
+
+	overflow-y: auto;
+}
+
+section {
+	z-index: 50;
+
+	position: relative;
+	transform-style: preserve-3d;
+	height: 50vh;
+
+}
+
+.image2 {
+	top:-40%;
+	left: 80%;
+	
+	width: 1300px;
+	height: 2000px;
+
+	background-color: rgb(8, 139, 30);
+	transform: translateZ(-100px);
+}
+
+.image3 {
+	width: 1000px;
+	height: 1300px;
+
+	left: -40%;
+
+
+	background-color: rgb(169, 69, 197);
+	transform: translateZ(-200px);
+} 
