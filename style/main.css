@@ -60,7 +60,7 @@ section {
 	min-height: 60vh;
 	border: 1px dashed;
 }
-
+/* 
 .test {
 	background-color: aqua;
 	position: absolute;
@@ -69,6 +69,51 @@ section {
 
 	width: 150px;
 	height: 100px;
+} */
+
+.section1 > div {
+
+	position: absolute;
+	top: 0;
+	right: 29%;
+
+	width: 750px;
+	height: 470px;
+
+	background-image: url("../assets/img/image1.png");
+	background-size: cover;
+	background-position: center;
+}
+
+.section1 > :nth-child(2) {
+
+	position: absolute;
+	top: 60%;
+	right: 5%;
+
+	width: 750px;
+	height: 1300px;
+
+	background-image: url("../assets/img/image2.jpeg");
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+}
+
+.section1 > :nth-child(3){
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	width: 550px;
+	height: 900px;
+
+
+	background-image: url("../assets/img/image3.jpeg");
+	background-size: cover;
+	background-position: center;
+
 }
 
 footer {
